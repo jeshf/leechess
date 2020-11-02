@@ -11,17 +11,12 @@
 		<link rel="stylesheet" href="{% static '/css/bootstrap.min.css' %}">
 		<link rel="stylesheet"href="{% static '/css/style2.css' %}">
 		<script src="{% static '/js/bootstrap.min.js' %}"></script>
-            <link rel="stylesheet" href="{% static '/css/nivo-slider.css' %}">
+
         <link rel="stylesheet" href="{% static '/css/style.css' %}">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
       <link rel="stylesheet" href="{% static '/css/bar.css' %}">
       	<link rel="icon" href="media/icon.png" type="image/x-icon" />
-    <script src="{% static '/js/jquery.nivo.slider.js' %}"></script>
-<script type="text/javascript">
-    $(window).on('load', function() {
-		    $('.slider').nivoSlider();
-		});
-      </script>
+
 </head>
 <body>
 <header>
@@ -37,7 +32,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="/api/home/">Canal de Youtube</a>
+          <a class="navbar-brand" href="https://www.youtube.com/channel/UCyDDAGnVUytq0xvdtkDJDiQ?sub_confirmation=1">Canal de Youtube</a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
@@ -46,7 +41,7 @@
             <li><a href="/api/login/">Inicia sesión o registrate</a></li>
               <li><a href="/api/allposts/">Servicios y trabajos</a></li>
             <li ><a style="background: transparent"><form method="POST">{% csrf_token %}
-            <input type="text" placeholder="Busca un trabajo" name="name">
+            <input type="text" placeholder="Buscar" name="name">
             <button type="submit"><i class="fa fa-search"></i></button>
             </form></a></li>
               {% if username != None %}
@@ -60,7 +55,7 @@
     </nav>
             <h1 class="text-center bg-gray table-bordered text-uppercase"><i>Publicaciones con recursos de ajedrez</i></h1>
 			 <p class="text-center">
-				<i id="passwordHelpInline" class="text-muted"> Unete a nuestro <a href="https://www.facebook.com/groups/584812451690367">grupo oficial del canal en facebook</a></i>
+				<i id="passwordHelpInline" class="text-muted"> Suscribete al canal de youtube <a href="https://www.youtube.com/channel/UCyDDAGnVUytq0xvdtkDJDiQ?sub_confirmation=1">link del canal</a></i>
 			</p>
  			<hr class="table-bordered">
                 <div class="row">
@@ -72,9 +67,9 @@
   </div>
   <div class="panel-body">
 <div class="slider-wrapper theme-bar">
-                            <div class="" >
-                                <iframe src="{{post.link}}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                        </div>
+                            <p class="card-text">
+                                {{ post.postDescription }}
+                        </p>
                 <div class="link-2">
                             <a href="/api/rest/posts/{{ post.id }}/image/">
                                 <span class="thick text-uppercase">Ver Detalles</span>

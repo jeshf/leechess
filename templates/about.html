@@ -10,10 +10,8 @@
 		<link rel="stylesheet"href="{% static '/css/style2.css' %}">
 		<script src="{% static '/js/bootstrap.min.js' %}"></script>
 			<link rel="icon" href="media/icon.png" type="image/x-icon" />
-            <link rel="stylesheet" href="{% static '/css/nivo-slider.css' %}">
         <link rel="stylesheet" href="{% static '/css/style.css' %}">
       <link rel="stylesheet" href="{% static '/css/bar.css' %}">
-    <script src="{% static '/js/jquery.nivo.slider.js' %}"></script>
       <script type="text/javascript">
 		$(window).on('load', function() {
 		    $('#slider').nivoSlider();
@@ -54,7 +52,7 @@
     </nav>
 			<h1 class="text-center " id="title">Blog del canal de Youtube Lee Chess</h1>
 			 <p class="text-center">
-				<i id="passwordHelpInline" class="text-muted"> Unete a nuestro <a href="https://www.facebook.com/groups/584812451690367">grupo oficial del canal en facebook</a></i>
+				<i id="passwordHelpInline" class="text-muted"> Suscribete al canal de youtube <a href="https://www.youtube.com/channel/UCyDDAGnVUytq0xvdtkDJDiQ?sub_confirmation=1">link del canal</a></i>
 			</p>
  			<hr class="table-bordered">
 			<div class="row">
@@ -86,15 +84,7 @@
 				</div>
 
 				<div class="col-md-5">
-                    <div class="slider-wrapper theme-bar">
-                            <div id="slider" class="nivoSlider">
-                                {% if img != 0 %}
-                                    {% for imgs in img %}
-                                        <img src="{{ imgs.imagePath.url }}">
-                                    {% endfor %}
-                                {% endif %}
-                            </div>
-                        </div>
+
 				</div>
 			</div>
 		</div>

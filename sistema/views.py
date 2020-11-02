@@ -30,6 +30,7 @@ class CommentViewSet(viewsets.ModelViewSet):
     serializer_class = CommentSerializer
 
 # desplegar una imagen en el archivo imagen.html
+@login_required
 def image(request,pk):
     form = ContactForm()
     formr = ResponseForm()
@@ -86,21 +87,19 @@ def image(request,pk):
             return HttpResponseRedirect("/api/rest/posts/" + str(post.id) + "/image/")
 def home(request):
     template = get_template('home.html')
-    post=Post.objects.all()[0:8]
     username = request.user.username
     if not username:
         username = None
     if request.method=='GET':
-        html = template.render({'post':post, 'username':username}, request)
+        html = template.render({ 'username':username}, request)
         return HttpResponse(html)
 def about(request):
     template = get_template('about.html')
-    post=Post.objects.all()[0:8]
     username = request.user.username
     if not username:
         username = None
     if request.method=='GET':
-        html = template.render({'post':post, 'username':username}, request)
+        html = template.render({ 'username':username}, request)
         return HttpResponse(html)
 #create a new post and retrieve all posts
 @login_required

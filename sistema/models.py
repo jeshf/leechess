@@ -19,7 +19,7 @@ class Format (AbstractModel):
 class Post (AbstractModel):
     postTitle = models.CharField(max_length=50, null=False, blank=False)
     postDescription = models.CharField(max_length=500, null=True, blank=True)
-    link = models.CharField(max_length=50, null=False, blank=False)
+    link = models.CharField(max_length=150, null=False, blank=False)
     def __str__(self):
         return self.postTitle
 
