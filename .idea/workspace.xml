@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1610fb14-1676-44e7-8608-cb91aadc7d8b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../carpinteriaramirez/templates/createpost.html" beforeDir="false" afterPath="$PROJECT_DIR$/../carpinteriaramirez/templates/createpost.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../carpinteriaramirez/templates/createservice.html" beforeDir="false" afterPath="$PROJECT_DIR$/../carpinteriaramirez/templates/createservice.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../carpinteriaramirez/templates/image.html" beforeDir="false" afterPath="$PROJECT_DIR$/../carpinteriaramirez/templates/image.html" afterDir="false" />
@@ -12,19 +11,11 @@
       <change beforePath="$PROJECT_DIR$/../carpinteriaramirez/templates/servicedata.html" beforeDir="false" afterPath="$PROJECT_DIR$/../carpinteriaramirez/templates/servicedata.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../carpinteriaramirez/templates/users.html" beforeDir="false" afterPath="$PROJECT_DIR$/../carpinteriaramirez/templates/users.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../carpinteriaramirez/templates/usersservices.html" beforeDir="false" afterPath="$PROJECT_DIR$/../carpinteriaramirez/templates/usersservices.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/leechessyt.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leechessyt.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/bullets.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/loading.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sistema/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/sistema/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sistema/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/sistema/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sistema/static/css/nivo-slider.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sistema/static/js/jquery.nivo.slider.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sistema/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/sistema/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/about.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/addimages.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/addimages.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/contacto.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/contacto.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/createpost.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/createpost.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/image.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/image.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/login.html" afterDir="false" />
@@ -121,6 +112,8 @@
       <workItem from="1604154835129" duration="1593000" />
       <workItem from="1604326179641" duration="1659000" />
       <workItem from="1604327949196" duration="1727000" />
+      <workItem from="1604330202083" duration="393000" />
+      <workItem from="1604330707610" duration="853000" />
     </task>
     <servers />
   </component>
